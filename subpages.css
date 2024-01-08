@@ -57,6 +57,19 @@ a.store-ig {
     }
 }
 
+h2.instagram {
+    color: #821921;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'IBM Plex Serif', 'Courier New', Courier;
+}
+
+.IG {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
 /* About CSS */
 
 .about-title {
@@ -193,3 +206,12 @@ p.contactdetails {
 }
 
 /* Repair CSS */
+
+iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+    border: none; /* Remove iframe border */
+}
